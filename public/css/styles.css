@@ -9,8 +9,8 @@ h1, h4, h5, h6 {
 h2{
   font-family: "Ubuntu";
   font-size: 2.1rem;
-  padding: 60px;
-  padding-top: 60px;
+  padding: 3%;
+  padding-top: 1%;
   color: black;
 }
 
@@ -31,7 +31,7 @@ p {
   font-family: 'Montserrat', sans-serif;
   font-size: 3.5rem;
   line-height: 1.5;
-  margin: 200px 50px 10px 50px;
+  margin: 10% 15% 5% 15%;
 }
 
 .section-heading {
@@ -43,7 +43,7 @@ p {
 /* Containers */
 
 .container-fluid{
-  padding: 0;
+  padding: 5% 7% 5% 7%;
 }
 
 /* Sections */
@@ -102,11 +102,11 @@ p {
 .searchbar {
   background: transparent;
   border-radius: 5px;
-  width: 450px;
-  height: 50px;
+  width: 40%;
+  height: 2.5em;
   border-color: rgb(211, 80, 40);;
-  font-size: 20px;
-  margin: 90px 60px 70px 60px ;
+  font-size: 1.5em;
+  margin: 5% 5% 6% 5% ;
 }
   
  input.searchbar {
@@ -130,6 +130,9 @@ p {
   cursor: pointer;
 }
 
+.icon .ser{
+  margin: 5%;
+}
 /* Trips Section */
 .container {
   width: 100%;
@@ -269,7 +272,7 @@ p {
 }
 
 .carousl{
-  padding: 1% 15% 3% 15%;
+  padding: 1% 15% 1% 15%;
 }
 
 .testimonial-text {
@@ -283,20 +286,9 @@ p {
   margin: 20px;
 }
 
-/* Pricing Section */
-  
-#pricing {
-  padding: 30px;
-}
+/* Features Section */
 
-.price-text {
-  font-size: 3rem;
-  line-height: 1.5;
-}
 
-.pricing-column {
-  padding: 3% 2%;
-}
 
 /* CTA Section */
 #cta{
@@ -344,6 +336,10 @@ li{
  p{
    font-size: 10px;
  }
+
+ .item-container{
+   width: 90%;
+ }
 }
 
 
@@ -365,5 +361,9 @@ li{
 
    p{
     font-size: 10px;
+  }
+
+  .item-container{
+    width: 90%;
   }
 }
