@@ -1,0 +1,142 @@
+<%- include("partial/header") %>
+
+<div  class="herosection">
+      <img id="herosectionImage" src="images/<%= tripName  %>.jpg" alt="">
+      
+    </div>
+
+    <div class="row tripPage">
+
+      <div class="col-lg-8 col-md-8 col-sm-12">
+
+        <h1><%= tripName  %> Expedition</h1>
+  
+         <div class="row" style="margin: 50px 0 0 0;" >
+          <div class="feature-box col-lg-3 col-sm-6 col-md-3">
+            <i class="fa-regular fa-clock fa-2x"></i>
+            <p><%= duration %> </p>
+          </div>
+    
+          <div class="feature-box col-lg-3 col-sm-6 col-md-3">
+            <i class="fa-solid fa-id-card fa-2x"></i>
+            <p><%= age %> </p>
+          </div>
+    
+          <div class="feature-box col-3 col-sm-6 col-md-3">
+            <i class="fa-regular fa-calendar fa-2x"></i>
+            <p><%= month %> </p>
+          </div>
+
+          <div class="feature-box col-3 col-sm-6 col-md-3">
+            <i class="fa-regular fa-user fa-2x"></i>
+            <p><%= avilable %> </p>
+          </div>
+      </div>
+
+
+      <br>
+      <hr size="10">
+
+      <!-- Timeline -->
+
+  <section>
+    <h2 class="timelineHeading"><%= tripName  %>  Itinerary</h2>
+     <div class="timeline">
+       <div class="container container-left">
+         <div class="content">
+           <h2><%= day0  %> </h2>
+           <ul>
+             <li><%= day01  %> </li>
+             <li><%= day02  %></li>
+           </ul>
+         </div>
+       </div>
+       <div class="container container-right">
+         <div class="content">
+           <h2><%= day1  %></h2>
+           <ul>
+             <li><%= day11  %></li>
+             <li><%= day12  %></li>
+             <li><%= day13  %></li>
+             <li>Overnight stay at hotel</li>
+           </ul>
+         </div>
+       </div>
+       <div class="container container-left">
+         <div class="content">
+           <h2><%= day2  %></h2>
+           <ul>
+             <li><%= day21  %></li>
+             <li><%= day22  %></li>
+             <li><%= day23  %></li>
+           </ul>
+         </div>
+       </div>
+     </div>
+   </section>
+
+   <br>
+   <hr size="10">
+
+   <!-- Notes and Extras -->
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Things to carry for <%= tripName  %> Expedition 
+            </button>
+          </h2> 
+          
+        </div>
+    
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body">
+             <ul>
+               <li>Driving License.</li>
+               <li>Sunglasses.</li>
+               <li>Sunscreen Lotion.</li>
+               <li>Muffler.</li>
+               <li>Warm caps.</li>
+               <li>Gloves (2 Pairs).</li>
+               <li>Torch Light.</li>
+             </ul>
+          </div>
+        </div>
+      </div>
+   </div>
+
+   </div>
+  
+
+      
+   
+    <div class="col-lg-4 col-md-4 col-sm-12">
+
+        <div class="card" style="width: 100%;">
+          <div class="card-body">
+            <h2 class="card-title"><%= cost  %> per Person</h2>
+            <p class="card-text"> 
+              <i class="fa-solid fa-mobile"></i> <p>+91 77172 97753</p>
+              <i class="fa-solid fa-mobile"></i> <p>+91 87699 63473</p>
+              <i class="fa-solid fa-clock-rotate-left"></i> <p>Mon - Sat 9.00 - 20.00</p>
+            </p>
+            <a href="#" class="btn btn-primary">Book Now</a>
+          </div>
+        </div>
+    </div>
+
+
+
+
+    </div>
+
+   
+   
+
+   
+
+    <script src="/public/script.js"></script>
+
+
+<%- include("partial/footer") %> 
